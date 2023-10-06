@@ -1,12 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .ai-image-generator {
     display: flex;
     flex-direction: column;
-    margin: auto;
     align-items: center;
     gap: 30px;
-    justify-content: space-between;
     padding: 1rem;
-
 }
 
 .header {
@@ -84,24 +88,26 @@ img-loading img {
     width: 20px;
     height: 20px;
     animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+}
 
-  .generate-btn[disabled] {
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.generate-btn[disabled] {
     pointer-events: none;
-  }
+}
 
 @media (max-width: 768px) {
+
     .ai-image-generator {
-        padding-top: 50px;
+        margin-top: -150px;
     }
 
     .header {
@@ -133,4 +139,3 @@ img-loading img {
         height: auto;
     }
 }
-
