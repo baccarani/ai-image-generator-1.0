@@ -106,10 +106,6 @@ img-loading img {
 
 @media (max-width: 768px) {
 
-    .ai-image-generator {
-        margin-top: -150px;
-    }
-
     .header {
         font-size: 50px;
     }
