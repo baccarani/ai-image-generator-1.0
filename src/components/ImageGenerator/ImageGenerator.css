@@ -74,6 +74,7 @@ img-loading img {
 
 .generate-btn:hover {
     background-color: rgb(255, 0, 60);
+    border: none;
 }
 
 .spinner {
