@@ -1,5 +1,7 @@
-# React + TypeScript + Vite
+# App Image
+![Screen Shot 2023-11-21 at 6 01 08 PM](https://github.com/baccarani/ai-image-generator-1.0/assets/29648095/c5356efc-5f86-4caa-8554-b188dff9b51c)
 
+# React + TypeScript + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
